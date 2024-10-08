@@ -3,4 +3,4 @@ layout: default
 title: This is me.
 ---
 
-She/her. A software person. Singapore.
+People.  Who own a paddock. In New Zealand.
