@@ -10,8 +10,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "npx @11ty/eleventy & npx tailwindcss -i ./tailwind.css -o _site/assets/styles/tailwind.css",
-    "build-ghpages": "npx @11ty/eleventy & npx tailwindcss -i ./tailwind.css -o _site/assets/styles/tailwind.css && npx gh-pages -d _site",
-    "start-ghpages": "npx @11ty/eleventy --serve & npx tailwindcss -i ./tailwind.css -o _site/assets/styles/tailwind.css --watch & npx gh-pages -d _site build -u 'github-actions-bot <support+actions@github.com>'"
+    "build-ghpages": "npx @11ty/eleventy & npx tailwindcss -i ./tailwind.css -o _site/assets/styles/tailwind.css && npx gh-pages -d _site build -u 'github-actions-bot <support+actions@github.com>'",
+    "start-ghpages": "npx @11ty/eleventy --serve & npx tailwindcss -i ./tailwind.css -o _site/assets/styles/tailwind.css --watch & npx gh-pages -d _site"
 
 
   },
